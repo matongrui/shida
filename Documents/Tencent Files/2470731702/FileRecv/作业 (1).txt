@@ -1,0 +1,35 @@
+  作业：
+	  *1.完成自定义ArrayList 
+	     -boolean add(E e) 
+                      -void add(int index, E element)  
+	     -int capacity()  
+	     -void clear()  
+	     -boolean contains(Object o)  
+	     -E get(int index) 
+	     -indexOf(Object o) 
+	     -isEmpty() 
+	     -E remove(int index)  
+	     -boolean remove(Object o)  
+	     -E set(int index, E element)  
+	     - int size() 
+	     
+	  *2.图书购物商场（MVC）
+	     图书信息：
+	           1.图书编号
+		   2.图书名称
+		   3.图书价格
+		   4.图书作者
+		   5.所属类别
+
+	     图书类别：
+	           1.类别编号
+		   2.类别名
+             功能：
+	           1.查询所有的图书信息
+		   2.按照类别查询图书信息
+		   3.根据作者查询图书信息
+		   4.根据图书名称查询图书信息
+		   5.购买图书
+		   6.打印购物车信息
+		      图书名称   图书价格  图书作者  数量  小计
+                   7.最终输出总价格
